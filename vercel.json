@@ -1,9 +1,22 @@
 {
-    "builds": [
-      {
-        "src": "index.html",
-        "use": "@vercel/static"
-      }
-    ]
-  }
-  
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"  // Deploy file HTML chính
+    },
+    {
+      "src": "facebook.png",
+      "use": "@vercel/static"  // Deploy hình ảnh
+    },
+    {
+      "src": "style.css",
+      "use": "@vercel/static"  // Deploy file CSS
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"  // Chuyển hướng tất cả yêu cầu đến các tệp trong thư mục gốc
+    }
+  ]
+}
