@@ -12,6 +12,10 @@
       "src": "zalo.png",
       "use": "@vercel/static"  
     },
+    {
+      "src": "logologo.png",
+      "use": "@vercel/static"  
+    },
      {
       "src": "avatar.jpg",
       "use": "@vercel/static"  
