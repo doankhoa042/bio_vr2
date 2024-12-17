@@ -5,10 +5,6 @@
       "use": "@vercel/static"  // Deploy file HTML chính
     },
     {
-      "src": "facebook.png",
-      "use": "@vercel/static"  // Deploy hình ảnh
-    },
-    {
       "src": "style.css",
       "use": "@vercel/static"  // Deploy file CSS
     }
