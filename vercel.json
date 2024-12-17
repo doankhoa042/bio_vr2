@@ -2,17 +2,14 @@
   "builds": [
     {
       "src": "index.html",
-      "use": "@vercel/static"  // Deploy file HTML chính
+      "use": "@vercel/static"  
     },
-    {
-      "src": "style.css",
-      "use": "@vercel/static"  // Deploy file CSS
-    }
+   
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/$1"  // Chuyển hướng tất cả yêu cầu đến các tệp trong thư mục gốc
+      "dest": "/$1" 
     }
   ]
 }
