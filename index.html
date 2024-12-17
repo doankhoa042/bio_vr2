@@ -126,7 +126,22 @@
             .profile img.logoLX {
                 width: 60%;
             }
+            .profile-header h2,
+            .profile-header p {
+                font-size: 14px; /* Giảm kích thước font chữ trên thiết bị di động */
+            }
+
+            .profile-header {
+                flex-direction: row; /* Đảm bảo các phần tử nằm ngang trên màn hình nhỏ */
+                justify-content: space-between; /* Căn đều các phần tử */
+                gap: 15px; /* Tăng khoảng cách giữa các phần tử nếu cần */
+            }
+
+            .profile img.logoLX {
+                width: 60%; /* Giảm kích thước logo trên thiết bị di động */
+            }
         }
+        
     </style>
 </head>
 
@@ -137,19 +152,19 @@
         </div>
         <div class="profile-header">
             <h2>Võ Thanh Hiền - CEO Tâm Luxury</h2>
-            <p>💎 Chuyên kim cương thiên nhiên 💎</p>
+            <p>💎Chuyên kim cương thiên nhiên💎</p>
             <p>Địa chỉ: 714 - 716 Trần Hưng Đạo, P.2, Quận 5, TP.HCM, Vietnam</p>
         </div>
 
         <div class="links">
             <div class="button-group">
-                <img class="logo-frame" src="/zalo.png" alt="Zalo Icon">
+                <img class="logo-frame" src="zalo.png" alt="Zalo Icon">
                 <a href="https://zalo.me/0906666933" target="_blank" aria-label="Zalo Saler Minh Châu">
                     Zalo Saler Minh Châu
                 </a>
             </div>
             <div class="button-group">
-                <img class="logo-frame" src="/zalo.png" alt="Zalo Icon">
+                <img class="logo-frame" src="zalo.png" alt="Zalo Icon">
                 <a href="https://zalo.me/0766993939" target="_blank" aria-label="Zalo Saler Phương Uyên">
                     Zalo Saler Phương Uyên
                 </a>
